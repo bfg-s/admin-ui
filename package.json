@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch --watch-options-poll=1000",
+        "wp": "mix watch-poll",
+        "hot": "mix watch --hot",
+        "prod": "yarn run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@types/webpack-env": "^1.16.0",
+        "@vue/compiler-sfc": "^3.0.4",
+        "axios": "^0.19",
+        "bfg-js": "^1.0",
+        "bfg-schema": "^1.0",
+        "bfg-vue": "^1.0",
+        "cross-env": "^7.0",
+        "laravel-mix": "^6.0.10",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.32.4",
+        "sass-loader": "8.*",
+        "vue": "^3.0.4",
+        "vue-loader": "^16.1.2"
+    }
+}

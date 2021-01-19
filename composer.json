@@ -1,0 +1,36 @@
+{
+    "name": "bfg/admin-ui",
+    "description": "A set of standard and generally accepted user interfaces.",
+    "type": "bfg-admin-ui-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bfg",
+            "email": "bfg.script@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "bfg/layout": "^1.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Bfg\\Admin\\UI\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bfg\\Admin\\UI\\ServiceProvider"
+            ],
+            "aliases": {
+                "AdminUI": "Bfg\\Admin\\UI\\Facade"
+            }
+        }
+    }
+}
