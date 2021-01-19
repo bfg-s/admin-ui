@@ -8,6 +8,11 @@ return [
     'theme' => 'default',
 
     /**
+     * Color schema of theme
+     */
+    'color' => 'light',
+
+    /**
      * BFG Admin default plugins
      */
     'plugins' => [

@@ -1,12 +1,12 @@
 <?php
 
-namespace Bfg\Admin\UI;
+namespace Admin\UI;
 
 use Illuminate\Support\Facades\Facade as FacadeIlluminate;
 
 /**
  * Class Facade
- * @package Bfg\Admin\UI
+ * @package Admin\UI
  */
 class Facade extends FacadeIlluminate
 {

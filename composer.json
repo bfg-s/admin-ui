@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bfg\\Admin\\UI\\": "app/"
+            "Admin\\UI\\": "app/"
         },
         "files": [
             "app/helpers.php"
@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bfg\\Admin\\UI\\ServiceProvider"
+                "Admin\\UI\\ServiceProvider"
             ],
             "aliases": {
-                "AdminUI": "Bfg\\Admin\\UI\\Facade"
+                "AdminUI": "Admin\\UI\\Facade"
             }
         }
     }

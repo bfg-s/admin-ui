@@ -1,13 +1,13 @@
 <?php
 
-namespace Bfg\Admin\UI;
+namespace Admin\UI;
 
 use Admin\Extension\Providers\ApplicationProvider;
 use Illuminate\Support\Facades\Blade;
 
 /**
  * Class ServiceProvider
- * @package Bfg\UI
+ * @package Admin\UI
  */
 class ServiceProvider extends ApplicationProvider
 {
@@ -56,7 +56,7 @@ class ServiceProvider extends ApplicationProvider
      */
     public function boot()
     {
-        Blade::componentNamespace('Bfg\\Admin\\UI\\Components', 'aui');
+        Blade::componentNamespace('Admin\\UI\\Components', 'aui');
 
         Blade::componentNamespace(admin_app_namespace('Components'), 'uui');
 

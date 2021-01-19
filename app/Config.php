@@ -1,8 +1,9 @@
 <?php
 
-namespace Bfg\Admin\UI;
+namespace Admin\UI;
 
 use Admin\Extension\Providers\ConfigProvider;
+use Bfg\Layout\MetaConfigs;
 
 /**
  * Config Class
@@ -16,6 +17,8 @@ class Config extends ConfigProvider
     public function boot() {
 
         parent::boot();
+
+        MetaConfigs::add('asset', admin_asset());
 
         $theme = config('admin-ui.theme');
 

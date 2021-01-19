@@ -1,10 +1,10 @@
 <?php
 
-namespace Bfg\Admin\UI;
+namespace Admin\UI;
 
 /**
  * Class AdminUI
- * @package Bfg\Admin\UI
+ * @package Admin\UI
  */
 class AdminUI
 {
